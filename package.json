@@ -1,0 +1,47 @@
+{
+    "name": "magsdk",
+    "version": "1.0.0",
+    "description": "MAG development environment and tools.",
+    "author": {
+        "name": "Stanislav Kalashnik",
+        "email": "darkpark.main@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/magsdk/magsdk.git"
+    },
+    "bin": "./bin/cli.js",
+    "scripts": {
+        "lint": "eslint *.js",
+        "jsdoc": "jsdoc --destination doc *.js readme.md"
+    },
+    "dependencies": {
+        "spasdk": "spasdk/spasdk"
+    },
+    "devDependencies": {
+        "mag-eslint-config": "magsdk/eslint-config"
+    },
+    "optionalDependencies": {
+        "spa-plugin-eslint": "spasdk/plugin-eslint",
+        "spa-plugin-gettext": "spasdk/plugin-gettext",
+        "spa-plugin-jade": "spasdk/plugin-jade",
+        "spa-plugin-livereload": "spasdk/plugin-livereload",
+        "spa-plugin-static": "spasdk/plugin-static",
+        "spa-plugin-sass": "spasdk/plugin-sass",
+        "spa-plugin-wamp": "spasdk/plugin-wamp",
+        "spa-plugin-webpack": "spasdk/plugin-webpack",
+        "spa-plugin-webui": "spasdk/plugin-webui",
+        "spa-plugin-zip": "spasdk/plugin-zip",
+        "mag-plugin-css": "magsdk/plugin-css",
+        "stb-plugin-proxy": "stbsdk/plugin-proxy",
+        "stb-plugin-sass": "stbsdk/plugin-sass",
+        "stb-plugin-webpack": "stbsdk/plugin-webpack",
+        "stb-plugin-weinre": "stbsdk/plugin-weinre"
+    },
+    "keywords": [
+        "mag",
+        "magsdk",
+        "framework"
+    ],
+    "license": "GPL-3.0"
+}
