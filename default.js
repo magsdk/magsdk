@@ -17,7 +17,6 @@ app.init({
         'spa-plugin-livereload',
         'spa-plugin-static',
         'spa-plugin-wamp',
-        'spa-webui',
         'mag-plugin-css',
         'stb-plugin-sass',
         'stb-plugin-webpack'
@@ -39,8 +38,9 @@ runner.task('watch', runner.parallel(
 runner.task('serve', runner.parallel(
     //'static:serve:develop',
     'static:serve:default',
+    'static:serve:webui',
     'wamp:serve:default',
-    'webui:serve:default',
+    //'webui:serve:default',
     'livereload:watch:default'
 ));
 
