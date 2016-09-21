@@ -36,7 +36,8 @@
         "stb-plugin-proxy": "stbsdk/plugin-proxy",
         "stb-plugin-sass": "stbsdk/plugin-sass",
         "stb-plugin-webpack": "stbsdk/plugin-webpack",
-        "stb-plugin-weinre": "stbsdk/plugin-weinre"
+        "stb-plugin-weinre": "stbsdk/plugin-weinre",
+        "stb-plugin-ssh": "stbsdk/plugin-ssh"
     },
     "keywords": [
         "mag",
