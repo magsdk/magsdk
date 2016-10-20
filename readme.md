@@ -1,9 +1,10 @@
 Development tasks
 =================
 
-[![Build Status](https://img.shields.io/travis/magsdk/magsdk.svg?style=flat-square)](https://travis-ci.org/magsdk/magsdk)
-[![NPM version](https://img.shields.io/npm/v/magsdk.svg?style=flat-square)](https://www.npmjs.com/package/magsdk)
-[![Dependencies Status](https://img.shields.io/david/magsdk/magsdk.svg?style=flat-square)](https://david-dm.org/magsdk/magsdk)
+[![build status](https://img.shields.io/travis/magsdk/magsdk.svg?style=flat-square)](https://travis-ci.org/magsdk/magsdk)
+[![npm version](https://img.shields.io/npm/v/magsdk.svg?style=flat-square)](https://www.npmjs.com/package/magsdk)
+[![dependencies status](https://img.shields.io/david/magsdk/magsdk.svg?style=flat-square)](https://david-dm.org/magsdk/magsdk)
+[![devDependencies status](https://img.shields.io/david/dev/magsdk/magsdk.svg?style=flat-square)](https://david-dm.org/magsdk/magsdk?type=dev)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/magsdk)
 
 
