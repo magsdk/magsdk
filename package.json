@@ -31,7 +31,7 @@
         "spa-plugin-static": "1.*.*",
         "spa-plugin-sass": "1.*.*",
         "spa-plugin-wamp": "1.*.*",
-        "spa-plugin-webpack": "spasdk/plugin-webpack",
+        "spa-plugin-webpack": "1.*.*",
         "spa-plugin-webui": "spasdk/plugin-webui",
         "spa-plugin-zip": "spasdk/plugin-zip",
         "mag-plugin-css": "git+ssh://git@192.168.1.222:/web/magsdk/plugin-css.git",
