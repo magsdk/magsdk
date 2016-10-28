@@ -32,7 +32,6 @@
         "spa-plugin-sass": "1.*.*",
         "spa-plugin-wamp": "1.*.*",
         "spa-plugin-webpack": "1.*.*",
-        "spa-plugin-webui": "spasdk/plugin-webui",
         "spa-plugin-zip": "0.0.*",
         "mag-plugin-css": "git+ssh://git@192.168.1.222:/web/magsdk/plugin-css.git",
         "stb-plugin-proxy": "stbsdk/plugin-proxy",
