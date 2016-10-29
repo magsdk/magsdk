@@ -17,23 +17,23 @@
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
-        "spasdk": "spasdk/spasdk"
+        "spasdk": "1.*.*"
     },
     "devDependencies": {
         "eslint": "3.*.*",
         "mag-eslint-config": "1.*.*"
     },
     "optionalDependencies": {
-        "spa-plugin-eslint": "spasdk/plugin-eslint",
-        "spa-plugin-gettext": "spasdk/plugin-gettext",
-        "spa-plugin-jade": "spasdk/plugin-jade",
-        "spa-plugin-livereload": "spasdk/plugin-livereload",
-        "spa-plugin-static": "spasdk/plugin-static",
-        "spa-plugin-sass": "spasdk/plugin-sass",
-        "spa-plugin-wamp": "spasdk/plugin-wamp",
-        "spa-plugin-webpack": "spasdk/plugin-webpack",
-        "spa-plugin-webui": "spasdk/plugin-webui",
-        "spa-plugin-zip": "spasdk/plugin-zip",
+        "spa-plugin-eslint": "0.0.*",
+        "spa-plugin-gettext": "0.0.*",
+        "spa-plugin-jade": "1.*.*",
+        "spa-plugin-livereload": "1.*.*",
+        "spa-plugin-static": "1.*.*",
+        "spa-plugin-sass": "1.*.*",
+        "spa-plugin-wamp": "1.*.*",
+        "spa-plugin-webpack": "1.*.*",
+        "spa-plugin-webui": "1.*.*",
+        "spa-plugin-zip": "0.0.*",
         "mag-plugin-css": "git+ssh://git@192.168.1.222:/web/magsdk/plugin-css.git",
         "stb-plugin-proxy": "0.0.*",
         "stb-plugin-sass": "1.*.*",
