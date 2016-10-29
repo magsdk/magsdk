@@ -36,7 +36,7 @@
         "spa-plugin-zip": "spasdk/plugin-zip",
         "mag-plugin-css": "git+ssh://git@192.168.1.222:/web/magsdk/plugin-css.git",
         "stb-plugin-proxy": "0.0.*",
-        "stb-plugin-sass": "stbsdk/plugin-sass",
+        "stb-plugin-sass": "1.*.*",
         "stb-plugin-webpack": "stbsdk/plugin-webpack",
         "stb-plugin-weinre": "stbsdk/plugin-weinre",
         "stb-plugin-ssh": "stbsdk/plugin-ssh"
