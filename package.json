@@ -1,6 +1,6 @@
 {
     "name": "magsdk",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "MAG development environment and tools.",
     "author": {
         "name": "Stanislav Kalashnik",
@@ -33,7 +33,7 @@
         "spa-plugin-wamp": "1.*.*",
         "spa-plugin-webpack": "1.*.*",
         "spa-plugin-zip": "0.0.*",
-        "mag-plugin-css": "git+ssh://git@192.168.1.222:/web/magsdk/plugin-css.git",
+        "mag-plugin-css": "^1.0.0",
         "stb-plugin-proxy": "0.0.*",
         "stb-plugin-sass": "1.*.*",
         "stb-plugin-webpack": "1.*.*",
