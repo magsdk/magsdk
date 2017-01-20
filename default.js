@@ -13,6 +13,7 @@ app.init({
     //tasks: process.argv.slice(2),
     //plugins: Object.keys(require('./package.json').optionalDependencies)
     plugins: [
+        'spa-plugin-gettext',
         'spa-plugin-jade',
         'spa-plugin-livereload',
         'spa-plugin-static',
@@ -24,6 +25,7 @@ app.init({
     ]
 });
 
+
 runner.task('build', runner.serial('jade:build', 'webpack:build', /*'sass:cache',*/ 'sass:build', 'css:build'));
 
 runner.task('watch', runner.parallel(
@@ -31,22 +33,17 @@ runner.task('watch', runner.parallel(
     'webpack:watch:develop',
     'sass:watch:develop:720',
     'css:watch:develop:720'
-    /*'sass:cache:watch:develop',
-     'sass:build:watch:develop'*/
 ));
 
 runner.task('serve', runner.parallel(
-    //'static:serve:develop',
+    'wamp:serve:default',
     'static:serve:default',
     'static:serve:webui',
-    'wamp:serve:default',
-    //'webui:serve:default',
     'livereload:watch:default'
 ));
 
 runner.task('default', runner.serial('build', runner.parallel('watch', 'serve')));
 
-//runner.run('default');
 
 // public
 module.exports = app;
