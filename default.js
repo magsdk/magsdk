@@ -26,7 +26,7 @@ app.init({
 });
 
 
-runner.task('build', runner.serial('jade:build', 'webpack:build', /*'sass:cache',*/ 'sass:build', 'css:build'));
+runner.task('build', runner.parallel('jade:build', 'webpack:build', /*'sass:cache',*/ 'sass:build', 'css:build'));
 
 runner.task('watch', runner.parallel(
     'jade:watch:develop',

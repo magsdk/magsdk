@@ -1,6 +1,6 @@
 {
     "name": "magsdk",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "MAG development environment and tools.",
     "author": {
         "name": "Stanislav Kalashnik",
